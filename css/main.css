@@ -1,0 +1,76 @@
+html {
+  box-sizing: border-box;
+  font-family: Roboto, "Roboto Condensed";
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner-inner {
+  position: absolute;
+  left: 20%;
+  transform: translateX(-20%) translateY(10%);
+  top: 10%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.ban-in {
+  float: left;
+  width: 40%;
+  padding: 1em;
+}
+
+.text {
+  float: right;
+  width: 60%;
+}
+
+h2 {
+  line-height: 1.25;
+  font-size: 3em;
+  font-family: "Roboto Condensed";
+  margin: 0;
+}
+
+p {
+  padding-bottom: 1em;
+}
+
+.btn {
+  font-size: 1.5rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+  background-color: #333;
+  color: #fff;
+  border-radius: .5em;
+  padding: .75em;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+.banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
